@@ -1,5 +1,11 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Tim Sugar 
 	email = tjaysus@gmail.com
+[include]
+	path = .gitlocalconfig
+[alias]
+	s = status
+	aa = add --all
+	c = commit -m
+	ca = commit -am
+	l = log --oneline --graph --all --decorate
