@@ -1,11 +1,15 @@
+[include]
+	path = .gitconfig.local
 [user]
 	name = Tim Sugar 
-	email = tjaysus@gmail.com
-[include]
-	path = .gitlocalconfig
+	email = timothysugar@gmail.com
 [alias]
 	s = status
 	aa = add --all
 	c = commit -m
 	ca = commit -am
 	l = log --oneline --graph --all --decorate
+[pull]
+	rebase = true
+[core]
+	safecrlf = false
